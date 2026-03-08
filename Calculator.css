@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap");
 
-/* Global colors used throughout the calculator */
 :root {
   --bg-dark: #08111f;
   --bg-mid: #132238;
@@ -31,7 +30,6 @@ body {
     linear-gradient(135deg, var(--bg-dark), var(--bg-mid));
 }
 
-/* Subtle grid texture in the background */
 body::before {
   content: "";
   position: fixed;
@@ -93,7 +91,6 @@ body::before {
   gap: 0.75rem;
 }
 
-/* Shared button styling */
 .btn {
   min-height: 68px;
   border: none;
@@ -133,7 +130,6 @@ body::before {
   font-size: 1.5rem;
 }
 
-/* Grid placement for each button */
 .area-clear { grid-area: clear; }
 .area-divide { grid-area: divide; }
 .area-multiply { grid-area: multiply; }
@@ -153,7 +149,6 @@ body::before {
 .area-zero { grid-area: zero; }
 .area-decimal { grid-area: decimal; }
 
-/* Responsive tweaks for smaller screens */
 @media (max-width: 420px) {
   body {
     padding: 14px;

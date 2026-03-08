@@ -5,13 +5,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Modern Calculator</title>
 
-  <!-- Connect the CSS file -->
   <link rel="stylesheet" href="Calculator.css" />
 </head>
 <body>
   <main class="app">
     <section class="calculator" aria-label="Calculator">
-      <!-- This readonly input acts as the calculator display screen -->
       <input
         id="display"
         class="display"
@@ -21,7 +19,7 @@
         aria-live="polite"
       />
 
-      <!-- Calculator buttons -->
+
       <div class="buttons">
         <button class="btn btn-clear area-clear" type="button" data-action="clear">C</button>
         <button class="btn btn-operator area-divide" type="button" data-action="operator" data-operator="/">÷</button>
@@ -49,7 +47,6 @@
     </section>
   </main>
 
-  <!-- Connect the JavaScript file -->
   <script src="Calculator.js"></script>
 </body>
 </html>
